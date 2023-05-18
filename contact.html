@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="project1.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-tertiary ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ICoder</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="project1.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Topics
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li> <a class="dropdown-item" href="#">Technology</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Wed Development</a></li>
+                            <li><a class="dropdown-item" href="#">App Development</a></li>
+                            <li><a class="dropdown-item" href="#">Software Development</a></li>
+                            <li><a class="dropdown-item" href="#">Game Development</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">New Technology</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blockchain</a></li>
+                            <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+                            <li><a class="dropdown-item" href="#">Artificial Intelligence</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Write For us</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./contact.html">Contact us</a>
+
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="example@gmail.com">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mobile No.</label>
+                <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+            <br>
+
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">Select your Query</label>
+                <select class="form-control" id="exampleFormControlSelect1">
+                    <option>Web</option>
+                    <option>Tech Stack</option>
+                    <option>Technology</option>
+                    <option>Others</option>
+
+                </select>
+            </div>
+            <br>
+
+
+
+
+            <br>
+            <div class="form-group row">
+                <div class="col-sm-2">Are you a Member?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck1">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+            <div class="form-group row">
+                <div class="col-sm-2">Are you a Professor?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck2">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+            <div class="form-group row">
+                <div class="col-sm-2">Are you a Coder?</div>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck3">
+                        <label class="form-check-label" for="gridCheck1">
+                            Yes
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+
+
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Tell us about yourself</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4">
+                </textarea>
+            </div>
+
+            <br>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Elaborrate your conern</label>
+                <textarea class="form-control" id="exampleFormControlTextarea2" rows="4">
+                </textarea>
+            </div>
+            <br>
+
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+    </div>
+
+
+
+
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2023 Company, Inc</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b198cecc90.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+        integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+        integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
